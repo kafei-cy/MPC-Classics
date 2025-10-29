@@ -2,7 +2,7 @@
  A Paper Collection for Beginners
 
 ## 综述推荐
-[2022 SANDS -Concretely efficient secure multi-party computation.pdf](https://github.com/kafei-cy/MPC-Classics/blob/main/%E2%AD%902022%20SANDS%20-Concretely%20efficient%20secure%20multi-party%20computation.pdf)： 杨糠老师写的综述，内涵大量经典论文引用，适合刚进入mpc小组的同学学习，尽早确定研究方向。
+[2022 SANDS -Concretely efficient secure multi-party computation.pdf](https://github.com/kafei-cy/MPC-Classics/blob/main/%E2%AD%902022%20SANDS%20-Concretely%20efficient%20secure%20multi-party%20computation.pdf)： 冯登国老师和杨糠老师写的综述，内涵大量经典论文引用，适合刚进入mpc小组的同学学习，尽早确定研究方向。
 
 ## 各方向论文推荐
 
