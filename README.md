@@ -18,3 +18,14 @@ from kafei-cy
         │   └── seperate假设
         └── structure-aware PSI
 ```
+
+### PSO 论文推荐（from Azzzting）
+论文主要是做PSO方面的工作，包含PSI，PSU，PSI-CARD等，同时也包含两方和多方场景。在阅读论文之前建议了解下述组件的功能，构造可以在之后了解。
+主要的组件：
+- OPRF/OPPRF
+- VOLE
+- OKVS
+- OT
+在组里自己提出的组件：
+- MCRG
+- J-PEQT
