@@ -1,8 +1,6 @@
 - **《Scalable and Unconditionally Secure Multiparty Computation》**, CRYPTO 2007  
   DN 协议提出。在诚实大多数场景下：
-  - 半诚实安全可容忍 $t < n/2$，总复杂度为 $O(nC)k$$$；
-  - 恶意安全可容忍 $t < n/3$，复杂度为
-  $O(nC)k + O(Dn^2)k + \mathrm{poly}(n,\kappa)$.
+  半诚实安全可容忍 $t < n/2$，总复杂度为 $O(nC)k$$$,恶意安全可容忍 $t < n/3$，复杂度为 $O(nC)k + O(Dn^2)k + \mathrm{poly}(n,\kappa)$.
   这篇工作的核心意义在于，将与电路规模相关的通信复杂度降到了关于参与方数量 $n$ 的线性级别，成为后续诚实大多数高效 MPC 的经典基线。
 
 - **《Perfectly Secure Multiparty Computation and the Computational Overhead of Cryptography》**, EUROCRYPT 2010  
