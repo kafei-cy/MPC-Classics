@@ -6,7 +6,7 @@
 - **《Perfectly Secure Multiparty Computation and the Computational Overhead of Cryptography》**, EUROCRYPT 2010  
   研究诚实大多数下的恶意安全、完美安全 MPC，并满足 GOD（Guaranteed Output Delivery）性质。  
   该工作实现了**某个严格小于 $1/3$ 的常数比例腐化门限**，而不是直接达到最优的 $ t<n/3 $。  
-  其复杂度可写为 $ O(\log^2 n \log s \log d \cdot s) + d \log d \cdot \mathrm{poly}(n, \log s).$
+  其复杂度可写为 $O(\log^2 n \log s \log d \cdot s) + d \log d \cdot \mathrm{poly}(n, \log s).$
   相比此前要么只能做到计算安全、复杂度为 $\mathrm{poly}(n,k,d,\log s)$，要么做到完美安全但开销为 $n\cdot\mathrm{poly}\log n$，
   这篇工作的重要贡献在于：在完美安全的前提下，将额外开销压缩到接近 polylog 级别。  
   技术是利用 **Packed Secret Sharing (PSS)** 对门进行批量处理，并借助 **Benes 网络**实现高效的数据重排。
@@ -14,7 +14,7 @@
 - **《Near-Linear Unconditionally-Secure Multiparty Computation with a Dishonest Minority》**, CRYPTO 2012  
   研究诚实大多数下的恶意安全、完美安全 MPC，并可容忍 $t < n/2$。  
   该工作将此前每个乘法门大约 $O(n^2\kappa)$ 比特的通信复杂度，降低到了接近 $O(n \log n)$ 的量级。  
-  其总复杂度为 $ O(c_M(n\phi+\kappa) + d_M n^2 \kappa + n^7\kappa),$ 
+  其总复杂度为 $O(c_M(n\phi+\kappa) + d_M n^2 \kappa + n^7\kappa),$ 
   其中主要思想是**批量验证（batch verification）**，从而显著降低乘法验证的摊销。
 
 - **《Guaranteed Output Delivery Comes Free in Honest Majority》**, CRYPTO 2020  
